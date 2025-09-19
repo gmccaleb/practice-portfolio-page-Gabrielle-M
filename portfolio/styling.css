@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+    /* background-color:cornflowerblue; */
+    font-family:monospace;
+}
+
+
+header{
+    background-color:skyblue;
+    text-align: left;
+    padding: 20px;
+    font-family:monospace;
+}
+
+footer{
+    background-color:skyblue;
+}
+
+#about-me{
+    font-size: large;
+    color: #333333;
+    text-align: justify;
+
+}
+
+a{
+    font-weight: 600;
+}
+
+skills{
+    font-size: 13px;
+    
+}
+
+input[type=text] {
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+textarea{
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;   
+    border-radius: 8px;
+    width: 25%;
+    height: 150px;
+}
+
+img{
+    float:inherit;
+    border-radius: 50%;
+}
