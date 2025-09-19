@@ -3,13 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gabrielle M - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styling.css">
 </head>
 <body>
-    <header>Gabrielle McCaleb - Aspiring Web Developer</header>
-    <h1>About Me</h1>
-    <img src="/images/download.png" alt="Default avatar picture" width="500" height="200">
+    <header>
+    <h1>Gabrielle McCaleb </h1>
+    <h2>LaunchCode Student and Aspiring Web Developer</h2>
+    </header>
+
+    <main>
+    <img id="avatar" src="/images/download.png" alt="Default avatar picture">
+    <section>
+        <h3>About Me</h3>
+        <p id="about-me">
+            I am a LaunchCode student actively making my way into the world of software development. 
+            I'm a fast learner that thrives in dynamic enviroments and takes pride in being both adaptable and hard working.
+            As I continue building my skills, I'm excited to take on new challenges and grow as a developer.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h4>Skills</h4>
+        <ul>
+            <li>Teamwork</li>
+            <li>Critical thinking</li>
+            <li>Adaptability</li>
+
+        </ul>     
+    </section>
+
+
+
+    <section id="form-area">
+        <h3>Contact Me</h3>
+        <form action="/submit" method="post">
+                <label for="name" id="name">Name </label>
+                <br>
+                <input type="text" placeholder="Enter name here...">
+                <br>
+                <label for="email">Email </label>
+                <br>
+                <input type="text" placeholder="Enter email here...">
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message-box" placeholder="Enter message here.."></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                
+        </form>
+    </section>
+
+
+
+
+    </main>
+    
+    <footer>
+        &copy; 2025 Gabrielle McCaleb - 
+        Github repo: <a href="https://github.com/gmccaleb" target="_blank">https://github.com/gmccaleb</a>
+    </footer>
 </body>
 </html>
 
